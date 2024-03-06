@@ -42,7 +42,7 @@ namespace _01_connected_mode
             //ExecuteReader - виконує команду select та повертає результат у вигляді DbDataReader
             string cmdText = "select* from Products";
             SqlCommand command = new SqlCommand(cmdText,connection);
-            var reader = command.ExecuteReader();
+            SqlDataReader reader = command.ExecuteReader();
 
             Console.OutputEncoding = Encoding.UTF8;
             // відображається назва всіх колонок
