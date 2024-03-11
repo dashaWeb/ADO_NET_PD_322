@@ -9,13 +9,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_params", "02_params\02_p
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Data_access_layer", "03_Data_access_layer\03_Data_access_layer.csproj", "{BECD09E0-3625-4334-80A4-49871DEA2F49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_connected_wpf", "04_connected_wpf\04_connected_wpf.csproj", "{AEDCCB07-F0FC-4741-91CD-3F565142F606}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_connected_wpf", "04_connected_wpf\04_connected_wpf.csproj", "{AEDCCB07-F0FC-4741-91CD-3F565142F606}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Data_access", "05_Data_access\05_Data_access.csproj", "{D409FB0B-305D-4549-BBE0-7D9897ED7A51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_Data_access", "05_Data_access\05_Data_access.csproj", "{D409FB0B-305D-4549-BBE0-7D9897ED7A51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_dataAdapter", "06_dataAdapter\06_dataAdapter.csproj", "{15102348-247B-4C75-883F-AC1277EDC36A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_dataAdapter", "06_dataAdapter\06_dataAdapter.csproj", "{15102348-247B-4C75-883F-AC1277EDC36A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Controls_wpf", "07_Controls_wpf\07_Controls_wpf.csproj", "{D491E0C3-442A-44D5-87C6-45DE70E83DBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_Controls_wpf", "07_Controls_wpf\07_Controls_wpf.csproj", "{D491E0C3-442A-44D5-87C6-45DE70E83DBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_DB_first_mode", "01_DB_first_mode\08_DB_first_mode.csproj", "{D6CA16DA-D7D4-4027-A888-3BE9B26B8CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_DB_model_first", "09_DB_model_first\09_DB_model_first.csproj", "{5069DF64-90B3-43BD-B371-5703B6E441A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{D491E0C3-442A-44D5-87C6-45DE70E83DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D491E0C3-442A-44D5-87C6-45DE70E83DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D491E0C3-442A-44D5-87C6-45DE70E83DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6CA16DA-D7D4-4027-A888-3BE9B26B8CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6CA16DA-D7D4-4027-A888-3BE9B26B8CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6CA16DA-D7D4-4027-A888-3BE9B26B8CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6CA16DA-D7D4-4027-A888-3BE9B26B8CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5069DF64-90B3-43BD-B371-5703B6E441A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5069DF64-90B3-43BD-B371-5703B6E441A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5069DF64-90B3-43BD-B371-5703B6E441A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5069DF64-90B3-43BD-B371-5703B6E441A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
