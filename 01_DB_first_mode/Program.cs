@@ -60,7 +60,7 @@ namespace _01_DB_first_mode
             var sal = context.Salles.Include(nameof(Salle.Product)).Where(s=>s.Product != null);
             foreach (var item in sal)
             {
-                Console.WriteLine($"Sale {item.Price,10}$ {item.Quantity,10} {item.Product.Name,15} {item.Product.TypeProduct}");
+                Console.WriteLine($"Sale {item.Price,10}$ {item.Quantity,10} {item.Product.Name,15} {item.Product.TypeProduct} {item.Client.FullName}");
             }
         }
     }
