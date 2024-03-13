@@ -10,6 +10,12 @@ namespace _01_DB_first_mode
     {
         static void Main(string[] args)
         {
+
+            //Nullable<int> a  = null;
+            //int? a = null;
+            /*string text = null;
+            DateTime? dateTime = null;
+            SportShopContext con = null;*/
             SportShopContext context = new SportShopContext();
             //select
             var query = context.Products.Where(p=> p.Price > 100 && p.Price < 500);
@@ -60,7 +66,7 @@ namespace _01_DB_first_mode
             var sal = context.Salles.Include(nameof(Salle.Product)).Where(s=>s.Product != null);
             foreach (var item in sal)
             {
-                Console.WriteLine($"Sale {item.Price,10}$ {item.Quantity,10} {item.Product.Name,15} {item.Product.TypeProduct}");
+                Console.WriteLine($"Sale {item.Price,10}$ {item.Quantity,10} {item.Product.Name,15} {item.Product.TypeProduct} {item.Client.FullName}");
             }
         }
     }
