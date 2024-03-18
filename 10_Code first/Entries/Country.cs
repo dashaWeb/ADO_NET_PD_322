@@ -9,7 +9,10 @@ namespace _10_Code_first
         {
             Workers = new HashSet<Worker>();
         }
+<<<<<<< HEAD
         // Id, id, ID / EntityName+Id --> primary key
+=======
+>>>>>>> 9d70941b8987c138c022c483c902d382951db970
         public int Id { get; set; }
         [Required]
         [MaxLength(100)]

@@ -92,7 +92,11 @@ namespace _10_Code_first
 
 
 
+<<<<<<< HEAD
            /* foreach (var worker in context.Workers)
+=======
+            foreach (var worker in context.Workers)
+>>>>>>> 9d70941b8987c138c022c483c902d382951db970
             {
                 Console.WriteLine($"\n\n{new string('-',50)}");
                 Console.WriteLine($"--------- User [{worker.Id}] {worker.FullName} \n Department : {worker.Department.Name} {worker.Salary}\n  Birthdate : {(worker.BirthDate.HasValue ? (worker.BirthDate.Value.ToShortDateString()) : "No Birth Date")}");
@@ -101,7 +105,11 @@ namespace _10_Code_first
                 {
                     Console.WriteLine($"\t Project {pr.Name} from {pr.LaunchDate.ToShortDateString()}");
                 }
+<<<<<<< HEAD
             }*/
+=======
+            }
+>>>>>>> 9d70941b8987c138c022c483c902d382951db970
 
 
         }
