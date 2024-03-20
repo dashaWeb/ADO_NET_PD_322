@@ -23,19 +23,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_DB_model_first", "09_DB_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Code first", "10_Code first\10_Code first.csproj", "{B0C65910-AADC-4EE1-975A-F2AB2F1C2A7D}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_LoadingTypes", "11_LoadingTypes\11_LoadingTypes.csproj", "{7DF4D7AD-D8C0-4560-B979-F5F98EBD3500}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Migrations", "12_Migrations\12_Migrations.csproj", "{70811250-97DD-4AB0-96F3-22E2108692DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Fluent API", "12_Fluent API\13_Fluent API.csproj", "{DB5EAD48-ED70-4905-805C-725EB064CC1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_Fluent API", "12_Fluent API\13_Fluent API.csproj", "{DB5EAD48-ED70-4905-805C-725EB064CC1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data_access_fluentApi", "data_access_fluentApi\data_access_fluentApi.csproj", "{52982989-0C1D-43DA-A183-F8B98A762CED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "data_access_fluentApi", "data_access_fluentApi\data_access_fluentApi.csproj", "{52982989-0C1D-43DA-A183-F8B98A762CED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Fluent api wpf", "14_Fluent api wpf\14_Fluent api wpf.csproj", "{8D69A99A-E7D0-42B5-969C-C0AC07064C5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_Fluent api wpf", "14_Fluent api wpf\14_Fluent api wpf.csproj", "{8D69A99A-E7D0-42B5-969C-C0AC07064C5E}"
 EndProject
-=======
->>>>>>> 9d70941b8987c138c022c483c902d382951db970
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Drapper", "15_Drapper\15_Drapper.csproj", "{D44F4F2F-89D3-4D8F-9F84-0764B033AC9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,7 +81,6 @@ Global
 		{B0C65910-AADC-4EE1-975A-F2AB2F1C2A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0C65910-AADC-4EE1-975A-F2AB2F1C2A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0C65910-AADC-4EE1-975A-F2AB2F1C2A7D}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{7DF4D7AD-D8C0-4560-B979-F5F98EBD3500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7DF4D7AD-D8C0-4560-B979-F5F98EBD3500}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DF4D7AD-D8C0-4560-B979-F5F98EBD3500}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -103,8 +101,10 @@ Global
 		{8D69A99A-E7D0-42B5-969C-C0AC07064C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D69A99A-E7D0-42B5-969C-C0AC07064C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D69A99A-E7D0-42B5-969C-C0AC07064C5E}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
->>>>>>> 9d70941b8987c138c022c483c902d382951db970
+		{D44F4F2F-89D3-4D8F-9F84-0764B033AC9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44F4F2F-89D3-4D8F-9F84-0764B033AC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44F4F2F-89D3-4D8F-9F84-0764B033AC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44F4F2F-89D3-4D8F-9F84-0764B033AC9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
